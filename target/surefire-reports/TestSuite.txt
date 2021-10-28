@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 7.595 s <<< FAILURE! - in TestSuite
+runScenario(com.rest.runner.TestRunner.APITestRunner)  Time elapsed: 0.761 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache
+
+runScenario(com.rest.runner.TestRunner.APITestRunner)  Time elapsed: 0.028 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+runScenario(com.rest.runner.TestRunner.APITestRunner)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+

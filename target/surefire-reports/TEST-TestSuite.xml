@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7.595" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/macbookpro/Desktop/RestAssured-master/target/test-classes:/Users/macbookpro/Desktop/RestAssured-master/target/classes:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-java/6.1.1/cucumber-java-6.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-core/6.1.1/cucumber-core-6.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-gherkin/6.1.1/cucumber-gherkin-6.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.1.1/cucumber-gherkin-messages-6.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/messages/12.1.1/messages-12.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-expressions/10.2.0/cucumber-expressions-10.2.0.jar:/Users/macbookpro/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-plugin/6.1.1/cucumber-plugin-6.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/docstring/6.1.1/docstring-6.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/html-formatter/6.0.3/html-formatter-6.0.3.jar:/Users/macbookpro/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-testng/6.1.1/cucumber-testng-6.1.1.jar:/Users/macbookpro/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/macbookpro/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/macbookpro/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/macbookpro/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/macbookpro/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/macbookpro/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-picocontainer/6.1.1/cucumber-picocontainer-6.1.1.jar:/Users/macbookpro/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/macbookpro/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/macbookpro/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.11.0/jackson-dataformat-yaml-2.11.0.jar:/Users/macbookpro/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar:/Users/macbookpro/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/Users/macbookpro/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/Users/macbookpro/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/Users/macbookpro/.m2/repository/tech/grasshopper/extentreports-cucumber6-adapter/1.0.0/extentreports-cucumber6-adapter-1.0.0.jar:/Users/macbookpro/.m2/repository/com/aventstack/extentreports/4.1.6/extentreports-4.1.6.jar:/Users/macbookpro/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/macbookpro/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/macbookpro/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:/Users/macbookpro/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/macbookpro/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/macbookpro/.m2/repository/org/slf4j/slf4j-nop/1.7.30/slf4j-nop-1.7.30.jar:/Users/macbookpro/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/macbookpro/.m2/repository/io/rest-assured/rest-assured/4.1.2/rest-assured-4.1.2.jar:/Users/macbookpro/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.8/groovy-xml-2.5.8.jar:/Users/macbookpro/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/macbookpro/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/macbookpro/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/macbookpro/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/macbookpro/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/macbookpro/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/macbookpro/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/macbookpro/.m2/repository/io/rest-assured/xml-path/4.1.2/xml-path-4.1.2.jar:/Users/macbookpro/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/macbookpro/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/macbookpro/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/macbookpro/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/macbookpro/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/macbookpro/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/macbookpro/.m2/repository/io/rest-assured/json-path/4.1.2/json-path-4.1.2.jar:/Users/macbookpro/.m2/repository/org/codehaus/groovy/groovy-json/2.5.8/groovy-json-2.5.8.jar:/Users/macbookpro/.m2/repository/io/rest-assured/rest-assured-common/4.1.2/rest-assured-common-4.1.2.jar:/Users/macbookpro/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/macbookpro/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/macbookpro/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/macbookpro/.m2/repository/org/codehaus/groovy/groovy/2.5.8/groovy-2.5.8.jar:/Users/macbookpro/.m2/repository/com/github/jknack/handlebars/4.1.0/handlebars-4.1.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/macbookpro/Desktop/RestAssured-master/target/surefire/surefirebooter10006660840305397392.jar /Users/macbookpro/Desktop/RestAssured-master/target/surefire 2021-10-27T22-00-27_472-jvmRun1 surefire13823105996206654378tmp surefire_015640966393529821402tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/macbookpro/Desktop/RestAssured-master/target/test-classes:/Users/macbookpro/Desktop/RestAssured-master/target/classes:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-java/6.1.1/cucumber-java-6.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-core/6.1.1/cucumber-core-6.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-gherkin/6.1.1/cucumber-gherkin-6.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.1.1/cucumber-gherkin-messages-6.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/messages/12.1.1/messages-12.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-expressions/10.2.0/cucumber-expressions-10.2.0.jar:/Users/macbookpro/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-plugin/6.1.1/cucumber-plugin-6.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/docstring/6.1.1/docstring-6.1.1.jar:/Users/macbookpro/.m2/repository/io/cucumber/html-formatter/6.0.3/html-formatter-6.0.3.jar:/Users/macbookpro/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-testng/6.1.1/cucumber-testng-6.1.1.jar:/Users/macbookpro/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/macbookpro/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/macbookpro/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/macbookpro/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/macbookpro/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/macbookpro/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/macbookpro/.m2/repository/io/cucumber/cucumber-picocontainer/6.1.1/cucumber-picocontainer-6.1.1.jar:/Users/macbookpro/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/macbookpro/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/macbookpro/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.11.0/jackson-dataformat-yaml-2.11.0.jar:/Users/macbookpro/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar:/Users/macbookpro/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/Users/macbookpro/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/Users/macbookpro/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/Users/macbookpro/.m2/repository/tech/grasshopper/extentreports-cucumber6-adapter/1.0.0/extentreports-cucumber6-adapter-1.0.0.jar:/Users/macbookpro/.m2/repository/com/aventstack/extentreports/4.1.6/extentreports-4.1.6.jar:/Users/macbookpro/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/macbookpro/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/macbookpro/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:/Users/macbookpro/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/macbookpro/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/macbookpro/.m2/repository/org/slf4j/slf4j-nop/1.7.30/slf4j-nop-1.7.30.jar:/Users/macbookpro/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/macbookpro/.m2/repository/io/rest-assured/rest-assured/4.1.2/rest-assured-4.1.2.jar:/Users/macbookpro/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.8/groovy-xml-2.5.8.jar:/Users/macbookpro/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/macbookpro/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/macbookpro/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/macbookpro/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/macbookpro/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/macbookpro/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/macbookpro/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/macbookpro/.m2/repository/io/rest-assured/xml-path/4.1.2/xml-path-4.1.2.jar:/Users/macbookpro/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/macbookpro/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/macbookpro/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/macbookpro/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/macbookpro/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/macbookpro/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/macbookpro/.m2/repository/io/rest-assured/json-path/4.1.2/json-path-4.1.2.jar:/Users/macbookpro/.m2/repository/org/codehaus/groovy/groovy-json/2.5.8/groovy-json-2.5.8.jar:/Users/macbookpro/.m2/repository/io/rest-assured/rest-assured-common/4.1.2/rest-assured-common-4.1.2.jar:/Users/macbookpro/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/macbookpro/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/macbookpro/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/macbookpro/.m2/repository/org/codehaus/groovy/groovy/2.5.8/groovy-2.5.8.jar:/Users/macbookpro/.m2/repository/com/github/jknack/handlebars/4.1.0/handlebars-4.1.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/macbookpro"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/macbookpro/Desktop/RestAssured-master"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/macbookpro/Desktop/RestAssured-master/target/surefire/surefirebooter10006660840305397392.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="16.0.1+0"/>
+    <property name="user.name" value="macbookpro"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/macbookpro/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/sf/9zg725jx6gd6gbyh66jswnyh0000gn/T/"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="/Users/macbookpro/Desktop/RestAssured-master"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/macbookpro/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="16.0.1+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="runScenario" classname="com.rest.runner.TestRunner.APITestRunner" time="0.761">
+    <failure message="Could not initialize class org.codehaus.groovy.reflection.ReflectionCache" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache
+</failure>
+    <system-err><![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.vmplugin.v7.Java7
+	at org.codehaus.groovy.vmplugin.VMPluginFactory.<clinit>(VMPluginFactory.java:43)
+	at org.codehaus.groovy.reflection.GroovyClassValueFactory.<clinit>(GroovyClassValueFactory.java:35)
+	at org.codehaus.groovy.reflection.ClassInfo.<clinit>(ClassInfo.java:107)
+	at org.codehaus.groovy.reflection.ReflectionCache.getCachedClass(ReflectionCache.java:95)
+	at org.codehaus.groovy.reflection.ReflectionCache.<clinit>(ReflectionCache.java:39)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.registerMethods(MetaClassRegistryImpl.java:210)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:108)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:86)
+	at groovy.lang.GroovySystem.<clinit>(GroovySystem.java:36)
+	at org.codehaus.groovy.runtime.InvokerHelper.<clinit>(InvokerHelper.java:86)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.createMap(ScriptBytecodeAdapter.java:635)
+	at io.restassured.internal.ResponseParserRegistrar.<init>(ResponseParserRegistrar.groovy)
+	at io.restassured.RestAssured.<clinit>(RestAssured.java:346)
+	at com.rest.runner.Utilities.RestProcessor.processRestCall(RestProcessor.java:34)
+	at com.rest.runner.StepDefinitions.API.BaseHook.makeARestCallWithMethod(BaseHook.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:44)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:115)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:131)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:112)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.rest.runner.TestRunner.APITestRunner" time="0.028">
+    <failure message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</failure>
+  </testcase>
+  <testcase name="runScenario" classname="com.rest.runner.TestRunner.APITestRunner" time="0.019">
+    <failure message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</failure>
+  </testcase>
+</testsuite>
